@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class="background"> <!--where the background image is-->
+    <section class="fadedBack">
+      <section class="startPage centered">
+        <h1>Test your makeup knowledge!</h1>
+        <p>image of makeup</p>
+      <button type="button" class="startButton">Let's Go!</button>
+      </section>
+
+      <section class="questionSlide centered other">
+        <h1>Question Slide</h1>
+          <ul class="answers">
+            <li>a.</li>
+            <li>b.</li>
+            <li>c.</li>
+            <li>d.</li>
+          </ul>
+        <button type="button" class="submitButton">Submit</button>
+      </section>
+
+      <section class="answerSlide centered other">
+        <h1>Answer Slide</h1>
+        <p>This slide will either display the 'Congrats!' message and picture if the user gets its right, or the 'Better luck next time!' message and picture if user gets it wrong.</p>
+        <p>Also displays user's score: 1/5</p>
+        <button type="button" class="nextButton">Next Question</button>
+      </section>
+      
+      <section class="lastSlide centered other">
+        <h1>Final Results</h1>
+        <h4>Great Effort!</h4>
+        <p>Thank you for taking my quiz! below are your results. Please feel free to take it again using the link below!</p>
+        <p>Displays user's final score: 3/5</p>
+        <button type="button" class="restartButton">Start Over</button>
+      </section>
+    
+    </section>
+    </main>
+  </body>
+</html>

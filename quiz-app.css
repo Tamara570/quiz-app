@@ -1,0 +1,13 @@
+.fadedBack {
+    text-align: center;
+  }
+  
+.answers {
+    text-align: left;
+  }
+  
+.centered {
+    border: 0.1em solid;
+    margin: 0.5cm;
+    padding: 1cm;
+  }
