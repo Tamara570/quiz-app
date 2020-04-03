@@ -60,7 +60,7 @@
     return `
     <h1 class="bold">Test Your Makeup Knowledge!<h1>
   
-    <img src="images/makeup-coverphoto.jpg" alt="eye-makeup" class="image" width= 200px>
+    <img src="makeup-coverphoto.jpg" alt="eye-makeup" class="image" width= 200px>
     <br><br>
     <button name='button' class='startButton'>Let's Go!</button>
     `;
@@ -124,7 +124,7 @@
           currentScore++;
           $('.startPage').html(
             `<h1>Yes! You're a superstar!<h1>
-            <img src="images/makeup-right.jpg" alt="smiling woman with makeup" class="image" width= 200px>
+            <img src="makeup-right.jpg" alt="smiling woman with makeup" class="image" width= 200px>
             <h3>Score is ${currentScore}/5</h3>
             <button class='nextButton' type='submit'>Next Question</button>
             `
@@ -134,7 +134,7 @@
       else {
           $('.startPage').html(
           `<h1>Yikes! Close but not quite..<h1>
-          <img src="images/makeup-wrong.jpg" alt="funny makeup look" class="image" width= 200px>
+          <img src="makeup-wrong.jpg" alt="funny makeup look" class="image" width= 200px>
           <p>The correct answer is:</p>
           <p class="answer">${rightAnswer}</p>
           <h3>Score is ${currentScore}/5</h3>
@@ -163,7 +163,7 @@
     $('.startPage').html(`
       <h1>Great Effort!<h1>
       <p>I hope you enjoyed my quiz!<p>
-      <img src="images/makeup-end.jpg" alt="funny makeup look" class="image" width= 200px>
+      <img src="makeup-end.jpg" alt="funny makeup look" class="image" width= 200px>
       <h3>Score is ${currentScore}/5</h3>
       <div>
       <button class='restartButton' type='submit'>Restart Quiz</button>
