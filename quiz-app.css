@@ -1,13 +1,43 @@
-.fadedBack {
-    text-align: center;
-  }
+body {
+    background: url("images/makeup-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
   
-.answers {
-    text-align: left;
-  }
   
 .centered {
     border: 0.1em solid;
-    margin: 0.5cm;
+    margin: 1cm auto;
     padding: 1cm;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    width: 50%;
+    justify-content: space-between
+}
+  
+.choices {
+    text-align: left;
+    font-size: 12px;
+}
+  
+p {
+    font-size: 15px;
+}
+
+.answer {
+    font-family: 'Inconsolata', monospace;
+}
+  
+.nextButton, .startButton, .answerButton, .restartButton {
+    cursor: pointer;
+    border: .2em rgb(199, 63, 63) solid;
+    background-color: rgb(214, 73, 97);
+    color: #ffffff;
+    opacity: 1;
+    width: 170px;
+  
+}
